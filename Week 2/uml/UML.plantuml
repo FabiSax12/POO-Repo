@@ -1,0 +1,45 @@
+@startuml uml
+
+class Vehiculo {
+  String marca
+  String modelo
+  int anio
+  int kilometraje
+
+  void acelerar()
+
+  void frenar()
+
+  void arrancar()
+
+  void describir()
+}
+
+class Auto {
+  int puertas
+  String color
+  String tipo
+}
+
+class Terminal {
+  - String backgroundColor
+  - String foregroundColor
+  - String font
+  - int fontSize
+  - int size
+  
+  + void clear()
+  + void splitWindow()
+  + void setBackgroundColor()
+  + void getBackgroundColor()
+  + void setForegroundColor()
+  + void getForegroundColor()
+  + void setFont()
+  + void getFont()
+  + void setFontSize()
+  + void getFontSize()
+  + void setSize()
+  + void getSize()
+}
+
+@enduml
