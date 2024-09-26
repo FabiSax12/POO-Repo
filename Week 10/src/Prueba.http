@@ -1,0 +1,13 @@
+POST http://localhost:8080/api/todos
+Content-Type: application/json
+
+{
+  "title": "Subir trabajo en clase",
+  "completed": true
+}
+
+###
+GET http://localhost:8080/api/todos
+
+
+###
