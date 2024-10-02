@@ -2,7 +2,7 @@ POST http://localhost:8080/api/todos
 Content-Type: application/json
 
 {
-  "title": "Subir trabajo en clase",
+  "title": "Subir trabajo en clase 2",
   "completed": true
 }
 
@@ -11,3 +11,5 @@ GET http://localhost:8080/api/todos
 
 
 ###
+
+DELETE http://localhost:8080/api/todos/2c16d399-5e44-478c-8592-173eec0828a8
