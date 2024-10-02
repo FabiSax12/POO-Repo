@@ -1,0 +1,47 @@
+@startuml Character
+
+enum Status {
+  Alive
+  Dead
+  unknown
+}
+
+enum Gender {
+  Male
+  Female
+  Genderless
+  unknown
+}
+
+class Character {
+  - int id
+  - string name
+  - Status status
+  - Gender gender
+  - String species
+  - String type
+  - String origin
+  - String[] episode
+
+  + int getId()
+  + void setId()
+  + string getName()
+  + void setName()
+  + Status getStataus()
+  + void setStatus()
+  + Gender getGender()
+  + void setGender()
+  + String getSpecies()
+  + void setSpecies()
+  + String getType()
+  + void setType()
+  + String getOrigin()
+  + void setOrigin()
+  + String[] getEpisodes()
+  + void addEpisode()
+}
+
+Status -> Character
+Gender -> Character
+
+@enduml
