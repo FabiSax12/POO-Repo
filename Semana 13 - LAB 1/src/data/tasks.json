@@ -1,0 +1,22 @@
+[
+    {
+        "dueDate": "16/10/2024",
+        "name": "Lab 1 de POO",
+        "description": "Patrones de diseño",
+        "priority": 1,
+        "isCompleted": false
+    },
+    {
+        "dueDate": "12/12/2024",
+        "name": "Practicar SMASH BROS",
+        "description": "Prepararse para el torneo xD",
+        "priority": 4,
+        "isCompleted": false
+    },
+    {
+        "name": "Ir al gym",
+        "description": "Para ponerme como el profe Jonathan",
+        "priority": 3,
+        "isCompleted": true
+    }
+]
